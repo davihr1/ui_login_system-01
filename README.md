@@ -6,7 +6,7 @@
 * **HTML5**
 * **CSS3**
 
-### Criador: [Davi_HR](https://github.com/maykbrito)
+### Criador: [Davi_HR]
 ===
 
 ---
