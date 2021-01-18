@@ -1,7 +1,7 @@
 ## Maratona de design de login para estudos
 ## Projeto: Techions+, simple
 ## folder: 01
-![](imgs/print.jpeg)
+![](./image/print.jpeg)
 ===
 * **HTML5**
 * **CSS3**
