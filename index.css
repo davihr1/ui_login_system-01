@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(125, 132, 138);
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.item {
+    width: 90%;
+    height: 80%;
+    margin: 2rem auto;
+    border-radius: 0.600rem;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+    height: 30rem;
+    margin: 0 auto;
+    border-radius: 20%;
+    background-color: rgba(0, 1, 49, 0.959);
+    transition: 25s;
+}
+
+#icon {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(72, 72, 214);
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login input {
+    border: none;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 3.500rem;
+    color: darkblue;
+    outline-color: rgb(72, 72, 214);
+    font-family: 'Roboto', cursive;
+    font-size: 1.200rem;
+}
+
+.butns {
+    display: flex;
+    flex-direction: column;
+}
+.butns button {
+    width: 20.700rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.300rem;
+    background-color: darkblue;
+    color: rgb(245, 245, 245);
+    font-size: 1.33rem;
+    font-weight: 500;
+    font-family: 'Roboto', cursive;
+    outline: none;
+    transition: 1000ms;
+}
+.butns button:hover {
+    background-color: rgb(72, 72, 214);
+    cursor: pointer;
+    font-family: 'Caveat', 'Roboto', cursive;
+}
